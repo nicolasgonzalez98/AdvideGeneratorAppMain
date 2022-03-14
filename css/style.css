@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+    /*Primary*/
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    /*Neutral*/
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 1.75rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Dark-Grayish-Blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--Grayish-Blue);
+    width: 50%;
+    height: 50%;
+    border-radius: 16px;
+}
+
+.advice{
+    font-size: small;
+    color: var(--Neon-Green);
+}
