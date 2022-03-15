@@ -7,9 +7,10 @@ function extraerDatos(){
 
         let frase = dataAdvice.slip.advice
         let id = dataAdvice.slip.id
+        
         ContadorId.innerText = id
         lugarFrase.innerText = frase
-        console.log('Cargado correctamente')
+        
     })
 }
 

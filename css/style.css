@@ -26,19 +26,58 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--Dark-Grayish-Blue);
+    background-color: var(--Dark-Blue);
     width: 100vw;
     height: 100vh;
 }
 
 .card{
-    background-color: var(--Grayish-Blue);
+    background-color: var(--Dark-Grayish-Blue);
     width: 50%;
     height: 50%;
     border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 .advice{
     font-size: small;
     color: var(--Neon-Green);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.phrase{
+    color: var(--Light-Cyan);
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.separador{
+    position: absolute;
+    top:60%;
+    width: 40%;
+}
+
+.buscar{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+    background-image: url(/images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    top: 20%;
+    border-style: none;
+}
+
+.buscar:hover{
+    cursor: pointer;
+    box-shadow: 0 0 40px var(--Neon-Green);
 }
